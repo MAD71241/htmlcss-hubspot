@@ -274,12 +274,14 @@ select {
     width: 100%;
 }
 .learn_more, .free_crm_ups {
-    height: 400px;
+    height: 350px;
     float: left;
 }
 .learn_more {
     width: 30%;
     margin-left: 10%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #E8EEF3;
 }
 .free_crm_ups {
     width: 50%;
@@ -314,7 +316,7 @@ select {
 }
 
 .checkmarks {
-    height: 50%;
+    height: 40%;
     position: absolute;
     bottom: 0;
 }
@@ -334,5 +336,28 @@ select {
     color: white;
     border: 1px solid #FE775A;
     background-color: #FE775A;
-    border-radius: 50%;;
+    border-radius: 50%;
+}
+
+.img_book {
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+    background-image: url(/assets/img/book.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    position: relative;
+    text-align: center;
+
+}
+
+.img_book .big {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    padding: 15px 50px;
+}
+.img_book .big:hover {
+    cursor: pointer;
 }
