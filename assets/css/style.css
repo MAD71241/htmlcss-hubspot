@@ -21,6 +21,10 @@ select, a {
     display: table;
     clear: both;
 }
+.jumbotron {
+    width: 100%;
+    height: 570px;
+}
 
 .container {
     width: 100%;
@@ -83,6 +87,10 @@ select, a {
 
 .bg-black {
     background-color: black;
+}
+
+.bg-orange {
+    background-color: #FE775A;
 }
 
 /*** HEADER ***/
@@ -179,12 +187,6 @@ select {
 /*** MAIN ***/
 
 /* jumbotron */
-
-.jumbotron {
-    width: 100%;
-    height: 570px;
-}
-
 .j_bg {
     background-image: url(/assets/img/jumbotron.png);
     background-size: cover;
@@ -243,7 +245,7 @@ select {
     background-size: 20%;
 }
 .jumbotron_row_top {
-    height: 65%;
+    height: 55%;
     width: 100%;
     float: left;
     text-align: center;
@@ -260,10 +262,27 @@ select {
 
 .jumbotron_row_bot p {
     display: inline-block;
-    width: 65%;
+    width: 75%;
 }
 
 .cube_section {
     width: 100%;
     height: 400px;
+}
+/* free crm section */
+/* left section */
+.free_crm_container {
+    width: 100%;
+}
+.learn_more, .free_crm_ups {
+    height: 400px;
+    float: left;
+}
+.learn_more {
+    width: 30%;
+    margin-left: 10%;
+}
+.free_crm_ups {
+    width: 50%;
+    margin-right: 10%;
 }
