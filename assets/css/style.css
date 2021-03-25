@@ -206,7 +206,7 @@ select {
     font-size: 60px;
     margin-bottom: 20px;
 }
-.text_container p, .text_container .big {
+.text_container p, .big {
     font-size: 20px;
 }
 
@@ -298,17 +298,20 @@ select {
     top: 0;
 }
 .crm_text_container p {
+    display: block;
+    width: 90%;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .crm_text_container h3 {
     padding-top: 80px;
 }
 .crm_text_container h4 {
+    display: inline-block;
     padding-top: 20px;
     font-weight: bold;
-    font-size: 14px;
-    display: inline-block;
+    font-size: 17px;
+    vertical-align: middle;
 }
 .horizontal_divider {
     display: inline-block;
@@ -317,6 +320,7 @@ select {
     background-color: #33475B;;
     margin-bottom: 4px;
     margin-left: 50px;
+    vertical-align: middle;
 }
 
 .checkmarks {
@@ -349,11 +353,10 @@ select {
     width: 100%;
     background-image: url(/assets/img/book.svg);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 40%;
     background-position: center;
     position: relative;
     text-align: center;
-
 }
 
 .img_book .big {
