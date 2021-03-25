@@ -270,7 +270,6 @@ select {
     height: 400px;
 }
 /* free crm section */
-/* left section */
 .free_crm_container {
     width: 100%;
 }
@@ -285,4 +284,31 @@ select {
 .free_crm_ups {
     width: 50%;
     margin-right: 10%;
+    position: relative;
+}
+.crm_text_container {
+    height: 50%;
+    position: absolute;
+    top: 0;
+}
+.crm_text_container p {
+    margin-top: 20px;
+    font-size: 13px;
+}
+.crm_text_container h3 {
+    padding-top: 80px;
+}
+.crm_text_container h4 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+}
+.horizontal_divider {
+    display: inline-block;
+    height: 1px;
+    width: 350px;
+    background-color: black;
+    margin-bottom: 4px;
+    margin-left: 50px;
 }
