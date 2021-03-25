@@ -308,7 +308,31 @@ select {
     display: inline-block;
     height: 1px;
     width: 350px;
-    background-color: black;
+    background-color: #33475B;;
     margin-bottom: 4px;
     margin-left: 50px;
+}
+
+.checkmarks {
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.checkmarks span {
+    display: inline-block;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+.checkmarks span::before {
+    content: "\2713";
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+    border: 1px solid #FE775A;
+    background-color: #FE775A;
+    border-radius: 50%;;
 }
