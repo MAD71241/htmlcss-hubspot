@@ -1,0 +1,13 @@
+/* global rules */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
