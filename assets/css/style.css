@@ -5,11 +5,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #33475B;
 }
 
 form {
     display: inline-block;
 }
+
 select, a {
     font-size: 12px;
 }
@@ -43,6 +45,7 @@ select, a {
     padding: 5px 10px;
     transition: 0.3s;
 }
+
 .outline-red:hover, .solid-red:hover {
     border: 1px solid white;
     background-color: #FE775A;
@@ -52,9 +55,11 @@ select, a {
 .padding-left {
     padding-left: 15px;
 }
+
 .padding-right {
     padding-right: 15px;
 }
+
 .background-black {
     background-color: #33475B;
     border-radius: 50%;
@@ -63,28 +68,38 @@ select, a {
 .bg-sky {
     background-color: #F4F9FD;
 }
+
 .bg-white {
     background-color: white;
 }
+
 .bg-pink {
     background-color: #FFF2EE;
 }
+
+.bg-rubik {
+    background-color: #F4F9FD;
+}
+
 .bg-black {
     background-color: black;
 }
 
 /*** HEADER ***/
+
 .top-nav, .bot-nav {
     width: 80%;
     height: 80px;
     margin: auto;
 }
+
 .language {
     width: 50%;
     text-align: left;
     line-height: 80px;
     float: left;
 }
+
 .language form {
     display: inline-block;
 }
@@ -110,7 +125,7 @@ select {
     float: left;
 }
 
-.login img, .language img{
+.login img, .language img {
     line-height: 80px;
     vertical-align: middle;
     height: 15px;
@@ -129,23 +144,27 @@ select {
     height: 80px;
     line-height: 80px;
 }
+
 .logo {
     width: 50%;
     float: left;
 }
+
 .menu {
     width: 50%;
     float: left;
     text-align: right;
 }
-.menu select{
-    background-color:white;
+
+.menu select {
+    background-color: white;
     color: #33475B;
     margin-left: 10px;
     border-style: none;
     border-radius: 5px;
     text-decoration: none;
 }
+
 .menu select:hover, menu a:hover {
     cursor: pointer;
 }
@@ -158,10 +177,15 @@ select {
 }
 
 /*** MAIN ***/
+
 /* jumbotron */
+
 .jumbotron {
     width: 100%;
     height: 570px;
+}
+
+.j_bg {
     background-image: url(/assets/img/jumbotron.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -175,10 +199,12 @@ select {
     margin-top: 7%;
     width: 55%;
 }
+
 .text_container h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
+
 .big {
     display: inline-block;
     margin-left: 0;
@@ -196,4 +222,48 @@ select {
     background-color: white;
     border: 1px solid #FE775A;
     color: #FE775A;
+}
+
+/* intersection */
+
+.intersection {
+    background-color: #AFEBE4;
+    height: 80px;
+    width: 100%;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
+}
+
+/* rubik section */
+
+.rubik {
+    background-image: url(/assets/img/cube.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+.jumbotron_row_top {
+    height: 65%;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.jumbotron_row_bot{
+    height: 35%;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.jumbotron_row_bot h2 {
+    margin-bottom: 30px;
+}
+
+.jumbotron_row_bot p {
+    display: inline-block;
+    width: 65%;
+}
+
+.cube_section {
+    width: 100%;
+    height: 400px;
 }
