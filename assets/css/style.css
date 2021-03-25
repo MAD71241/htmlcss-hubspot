@@ -7,6 +7,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+form {
+    display: inline-block;
+}
+select, a {
+    font-size: 12px;
+}
+
 .clearfix {
     content: "";
     display: table;
@@ -17,7 +24,14 @@
     width: 100%;
     height: auto;
     margin: auto;
-    background-color: #F4F9FD;
+}
+
+.language a {
+    color: #33475B;
+}
+
+.top-nav a {
+    text-decoration: none;
 }
 
 .outline-red, .solid-red {
@@ -46,18 +60,19 @@
     border-radius: 50%;
 }
 
-/* header */
-nav {
+.bg-sky {
+    background-color: #F4F9FD;
+}
+.bg-white {
+    background-color: white;
+}
+
+/*** HEADER ***/
+.top-nav, .bot-nav {
     width: 80%;
     height: 80px;
     margin: auto;
 }
-
-nav a {
-    color: #33475B;
-    text-decoration: none;
-}
-
 .language {
     width: 50%;
     text-align: left;
@@ -89,9 +104,49 @@ select {
     float: left;
 }
 
-.login img, .language img {
+.login img, .language img{
     line-height: 80px;
     vertical-align: middle;
     height: 15px;
     width: 15px;
+}
+
+/* bot navbar */
+
+.logo img {
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.bot-nav {
+    height: 80px;
+    line-height: 80px;
+}
+.logo {
+    width: 50%;
+    float: left;
+}
+.menu {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.menu select{
+    background-color:white;
+    color: #33475B;
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.menu select:hover, menu a:hover {
+    cursor: pointer;
+}
+
+.menu a {
+    margin-left: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #33475B;
 }
