@@ -11,3 +11,43 @@
     display: table;
     clear: both;
 }
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #F4F9FD;
+}
+
+/* header */
+nav {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+
+.language {
+    width: 50%;
+    text-align: left;
+    line-height: 80px;
+    background-color: black;
+    float: left;
+}
+.language form {
+    display: inline-block;
+}
+
+.login {
+    width: 50%;
+    text-align: right;
+    line-height: 80px;
+    background-color: black;
+    float: left;
+}
+
+.login img {
+    line-height: 80px;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+}
