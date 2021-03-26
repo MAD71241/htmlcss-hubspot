@@ -428,12 +428,12 @@ select {
 .card ul {
     text-align: left;
     margin-left: 15%;
-    margin-top: 20px;
+    margin-top: 30px;
     list-style: none;
 }
 .card ul>li, .card h4, .card p, .card h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 .card .big {
-    margin-top: 80px;
+    margin-top: 50px;
 }
