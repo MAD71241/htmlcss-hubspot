@@ -293,7 +293,7 @@ select {
 
 .free_crm_container {
     width: 100%;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .learn_more, .free_crm_ups {
@@ -628,34 +628,42 @@ select {
 .start_growing {
     width: 80%;
     margin: auto;
-    text-align: center;
 }
 .start_growing_left {
-    width: 25%;
-    height: 350px;
+    width: 40%;
+    height: 450px;
     float: left;
 }
 .start_growing_left h2 {
-    display: inline-block;
     width: 400px;
     text-align: left;
     font-size: 25px;
-    font-weight:700;
     margin-top: 50px;
     margin-bottom: 25px;
 }
 .start_growing_left p {
-    display: inline-block;
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5rem;
 }
+.start_growing_left p:last-of-type {
+    font-size: 12px;
+    margin-top: 80px;
+}
 .start_growing_right {
-    width: 75%;
+    width: 50%;
     height: 350px;
+    margin-left: 8%;
     text-align: right;
     float: left;
 }
 .start_growing_right img {
     height: 100%;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: 450px;
+    background-color: #32495B;
+    color: white;
 }
