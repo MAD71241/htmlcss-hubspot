@@ -515,4 +515,21 @@ select {
 .customer_card:nth-child(4) {
     border-right-style: none;
 }
-    
+
+.customer_card h4, .customer_card p {
+    color: white;
+}
+.customer_card h4 {
+    margin-top: 15px;
+    font-size: 40px;
+}
+.customer_card p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+.customer_container:last-of-type>.customer_card img {
+    padding-top: 20px;
+}
+.customer_container:last-of-type>.customer_card:last-of-type img {
+    padding-top: 30px;
+}
