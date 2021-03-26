@@ -8,6 +8,10 @@
     color: #33475B;
 }
 
+.body {
+    min-width: 1920px;
+}
+
 form {
     display: inline-block;
 }
@@ -101,6 +105,7 @@ select, a {
     margin: auto;
 }
 
+
 .language {
     width: 50%;
     text-align: left;
@@ -154,12 +159,12 @@ select {
 }
 
 .logo {
-    width: 50%;
+    width: 20%;
     float: left;
 }
 
 .menu {
-    width: 50%;
+    width: 80%;
     float: left;
     text-align: right;
 }
@@ -227,6 +232,7 @@ select {
     background-color: white;
     border: 1px solid #FE775A;
     color: #FE775A;
+    cursor: pointer;
 }
 
 /* intersection */
@@ -276,7 +282,9 @@ select {
 /* free crm section */
 .free_crm_container {
     width: 100%;
+    margin-bottom: 50px;
 }
+
 .learn_more, .free_crm_ups {
     height: 350px;
     float: left;
@@ -333,11 +341,11 @@ select {
     padding-top: 30px;
     margin-right: 10px;
 }
-.checkmarks span::before {
+.checkmarks span::before, .card ul>li::before {
     content: "\2713";
-    font-size: 15px;
-    width: 20px;
-    height: 20px;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
     display: inline-block;
     margin-right: 10px;
     text-align: center;
@@ -367,4 +375,65 @@ select {
 }
 .img_book .big:hover {
     cursor: pointer;
+}
+
+/* cards section */
+.card-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 30%;
+    height: 600px;
+    background-color: white;
+/*     background-color: black; */
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+}
+.middle {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card img {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card h3 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.card p {
+    display: inline-block;
+    width: 80%;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.card hr {
+    width: 70%;
+    margin: auto;
+}
+
+.card h4 {
+    margin-top: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.card ul {
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 20px;
+    list-style: none;
+}
+.card ul>li, .card h4, .card p, .card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card .big {
+    margin-top: 80px;
 }
