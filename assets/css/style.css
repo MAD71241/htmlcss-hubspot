@@ -11,27 +11,33 @@
 .body {
     min-width: 1920px;
 }
+
 a {
     font-size: 14px;
     text-decoration: none;
 }
+
 .fa-chevron-down {
     padding: 0 5px 0 5px
 }
+
 .clearfix {
     content: "";
     display: table;
     clear: both;
 }
+
 .jumbotron {
     width: 100%;
     height: 560px;
     background-color: #FFF2EE;
 }
+
 .container {
     width: 100%;
     padding-bottom: 50px;
 }
+
 .outline-red, .solid-red {
     border: 1px solid #FE775A;
     background-color: white;
@@ -82,6 +88,7 @@ a {
     line-height: 80px;
     float: left;
 }
+
 .vertical-divider {
     display: inline-block;
     background-color: #33475B;
@@ -90,37 +97,45 @@ a {
     width: 1px;
     height: 15px;
 }
+
 .login {
     width: 50%;
     text-align: right;
     line-height: 80px;
     float: left;
 }
+
 .login img, .language img {
     line-height: 80px;
     vertical-align: middle;
     height: 15px;
     width: 15px;
 }
+
 /* bot navbar */
+
 .logo img {
     display: inline-block;
     line-height: 80px;
     vertical-align: middle;
 }
+
 .bot-nav {
     height: 80px;
     line-height: 80px;
 }
+
 .logo {
     width: 20%;
     float: left;
 }
+
 .menu {
     width: 80%;
     float: left;
     text-align: right;
 }
+
 .menu select {
     background-color: white;
     color: #33475B;
@@ -129,9 +144,11 @@ a {
     border-radius: 5px;
     text-decoration: none;
 }
+
 .menu select:hover, menu a:hover {
     cursor: pointer;
 }
+
 .menu a {
     margin-left: 15px;
     padding: 5px 10px;
@@ -161,7 +178,6 @@ a {
 .text_container h1 {
     font-size: 60px;
     margin-bottom: 20px;
-
 }
 
 .text_container p, .big {
@@ -199,7 +215,11 @@ a {
     border-bottom: 3px solid #33475B;
 }
 
-/* rubik section */
+/* rubik cube section */
+
+.cube_section {
+    width: 100%;
+}
 
 .rubik {
     background-image: url(/assets/img/cube.webp);
@@ -208,18 +228,15 @@ a {
     background-size: 15%;
 }
 
-.jumbotron_row_top {
-    height: 55%;
+.jumbotron_row_top, .jumbotron_row_bot {
+    height: 250px;
     width: 100%;
     float: left;
     text-align: center;
 }
 
 .jumbotron_row_bot {
-    height: 35%;
-    width: 100%;
-    float: left;
-    text-align: center;
+    height: 200px;
 }
 
 .jumbotron_row_bot h2 {
@@ -230,11 +247,6 @@ a {
     display: inline-block;
     font-size: 20px;
     width: 75%;
-}
-
-.cube_section {
-    width: 100%;
-    height: 400px;
 }
 
 /* free crm section */
@@ -265,7 +277,7 @@ a {
 .crm_text_container {
     height: 50%;
     position: absolute;
-    top: 0;
+    top: 20px;
 }
 
 .crm_text_container p {
@@ -281,10 +293,9 @@ a {
 
 .crm_text_container h4 {
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 50px;
     font-weight: bold;
     font-size: 17px;
-    vertical-align: middle;
 }
 
 .horizontal_divider {
@@ -298,7 +309,7 @@ a {
 }
 
 .checkmarks {
-    height: 40%;
+    height: 20%;
     position: absolute;
     bottom: 0;
 }
@@ -310,7 +321,7 @@ a {
     margin-right: 10px;
     text-align: center;
     line-height: 15px;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
     border: 1px solid #FE775A;
     background-color: #FE775A;
@@ -346,9 +357,8 @@ a {
 
 .img_book .big {
     position: absolute;
-    bottom: 0;
-    left: 25%;
-    right: 25%;
+    top: 75%;
+    transform: translate(-50%, -50%);
 }
 
 .img_book .big:hover {
@@ -588,6 +598,14 @@ a {
     float: left;
 }
 
+.start_growing_right {
+    width: 50%;
+    height: 350px;
+    margin-left: 8%;
+    text-align: right;
+    float: left;
+}
+
 .start_growing_left h2 {
     width: 400px;
     text-align: left;
@@ -607,24 +625,19 @@ a {
     margin-top: 80px;
 }
 
-.start_growing_right {
-    width: 50%;
-    height: 350px;
-    margin-left: 8%;
-    text-align: right;
-    float: left;
-}
-
 .start_growing_right img {
     height: 100%;
 }
 
 /* footer */
 
+footer, .footer_logo p, .footer_legal a, .footer_top_column h4, .footer_top_column ul li:hover, #social_icons a>.fab:hover {
+    color: white;
+}
+
 footer {
     width: 100%;
     background-color: #32495B;
-    color: white;
 }
 
 .footer_top_container {
@@ -640,7 +653,6 @@ footer {
 }
 
 .footer_top_column h4 {
-    color: white;
     margin: 50px 0;
 }
 
@@ -649,10 +661,6 @@ footer {
     margin-bottom: 25px;
     list-style: none;
     cursor: pointer;
-}
-.footer_top_column ul li:hover {
-    color: white;
-    transition: 0.3s;
 }
 
 #call_911 {
@@ -666,11 +674,6 @@ footer {
 
 #call_911 a {
     text-decoration: none;
-}
-
-#call_911:hover {
-    background-color: white;
-    transition: 0.5s;
 }
 
 .footer_top_container:nth-of-type(2) {
@@ -688,7 +691,7 @@ footer {
     text-decoration: none;
 }
 
-.footer_logo {
+.footer_logo, .footer_legal {
     width: 50%;
     height: 150px;
     line-height: 50px;
@@ -696,26 +699,20 @@ footer {
     float: left;
 }
 
+.footer_legal {
+    text-align: right;
+    margin-top: 50px;
+}
+
 .footer_logo img {
-    display: block;
     margin: 50px 0 10px 0;
     line-height: 50px;
 }
 
 .footer_logo p, .footer_legal a {
-    color: white;
     font-size: 16px;
     margin-right: 5px;
     text-decoration: none;
-}
-
-.footer_legal {
-    height: 150px;
-    width: 50%;
-    text-align: right;
-    float: left;
-    line-height: 50px;
-    margin-top: 50px;
 }
 
 .fa-facebook-f, .fa-instagram, .fa-youtube, .fa-twitter, .fa-linkedin-in {
@@ -724,7 +721,10 @@ footer {
     padding-right: 18px;
 }
 
-#social_icons a>.fab:hover {
-    color: white;
+#social_icons a>.fab:hover, .footer_top_column ul li:hover, #call_911:hover {
     transition: 0.5s;
+}
+
+#call_911:hover {
+    background-color: white;
 }
