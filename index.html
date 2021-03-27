@@ -8,6 +8,9 @@
     <link rel="shortcut icon" href="./assets/img/HubSpot-Inversed-Favicon.webp" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Hubspot</title>
 </head>
@@ -18,17 +21,9 @@
             <!-- navbar top -->
             <nav class="top-nav">
                 <div class="language">
-                    <img class="background-black" src="./assets/img/globe.svg" alt="globe icon">
-                    <form class="padding-right" action="">
-                        <select name="" id="">
-                            <option value="chi">China</option>
-                            <option value="de">Deutsch</option>
-                            <option value="en-gb" selected>English</option>
-                            <option value="esp">Spagnolo</option>
-                            <option value="por">Portoghese</option>
-                            <option value="fr">Francese</option>
-                        </select>
-                    </form>
+                    <i class="fas fa-globe-europe"></i>
+                    <a href="">English</a>
+                    <i class="fas fa-chevron-down"></i>
                     <!-- /pulsante scelta linguaggio -->
                     <span class="vertical-divider"></span>
                     <a class="padding-left" href="#">Contact Us</a>
@@ -49,32 +44,15 @@
                     <img src="./assets/img/logo.svg" alt="hubspot logo">
                 </div>
                 <div class="menu">
-                    <form action="">
-                        <select name="" id="">
-                            <option value="en-gb" value selected disabled>Software</option>
-                            <option value="chi">China</option>
-                            <option value="de">Deutsch</option>
-                            <option value="esp">Spagnolo</option>
-                            <option value="por">Portoghese</option>
-                            <option value="fr">Francese</option>
-                        </select>
-                    </form>
-                    <a href="#">Pricing</a>
-                    <form action="">
-                        <select name="" id="">
-                            <option value="en-gb" value selected disabled>Resources</option>
-                        </select>
-                    </form>
-                    <form action="">
-                        <select name="" id="">
-                            <option value="en-gb" value selected disabled>Partners</option>
-                        </select>
-                    </form>
-                    <form action="">
-                        <select name="" id="">
-                            <option value="en-gb" value selected disabled>Abouts</option>
-                        </select>
-                    </form>
+                    <a href="">Software</a>
+                    <i class="fas fa-chevron-down"></i>
+                    <a href="">Pricing</a>
+                    <a href="">Resources</a>
+                    <i class="fas fa-chevron-down"></i>
+                    <a href="">Partners</a>
+                    <i class="fas fa-chevron-down"></i>
+                    <a href="">About</a>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
             </nav>
             <!-- navbar bot -->
@@ -123,9 +101,11 @@
                     </h4>
                 </div>
                 <div class="checkmarks">
-                    <span>Contact Insight</span>
-                    <span>Deals</span>
-                    <span>Task</span>
+                    <ul>
+                        <li><i class="fas fa-check"></i>Contact Insight</li>
+                        <li><i class="fas fa-check"></i>Deals</li>
+                        <li><i class="fas fa-check"></i>Task</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -140,9 +120,9 @@
                     <hr>
                     <h4>Popular Feature</h4>
                     <ul>
-                        <li>Lead Generation</li>
-                        <li>Marketing Automation</li>
-                        <li>Analytics</li>
+                        <li><i class="fas fa-check"></i>Lead Generation</li>
+                        <li><i class="fas fa-check"></i>Marketing Automation</li>
+                        <li><i class="fas fa-check"></i>Analytics</li>
                     </ul>
                     <div class="big">Learn More</div>
                 </div>
@@ -154,9 +134,9 @@
                     <hr>
                     <h4>Popular Feature</h4>
                     <ul>
-                        <li>Email Tracking</li>
-                        <li>Meeting Scheduling</li>
-                        <li>Email Automation</li>
+                        <li><i class="fas fa-check"></i>Email Tracking</li>
+                        <li><i class="fas fa-check"></i>Meeting Scheduling</li>
+                        <li><i class="fas fa-check"></i>Email Automation</li>
                     </ul>
                     <div class="big">Learn More</div>
                 </div>
@@ -168,9 +148,9 @@
                     <hr>
                     <h4>Popular Feature</h4>
                     <ul>
-                        <li>Tickets</li>
-                        <li>Customer Feedback</li>
-                        <li>Knowledge Base</li>
+                        <li><i class="fas fa-check"></i>Tickets</li>
+                        <li><i class="fas fa-check"></i>Customer Feedback</li>
+                        <li><i class="fas fa-check"></i>Knowledge Base</li>
                     </ul>
                     <div class="big">Learn More</div>
                 </div>
@@ -310,8 +290,14 @@
                     <li>Get a Free Website Report</li>
                     <li>HubSpot Templates</li>
                     <li>Free Tools & Generators</li>
-                    <li id="call_911">Contact HubSpot Support</li>
-                    <li id="social_icons">AddSomeIconsHere</li>
+                    <li id="call_911"><a href="">Contact HubSpot Support</a></li>
+                    <li id="social_icons">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>  
+                    </li>
                 </ul>
             </div>
         </div>

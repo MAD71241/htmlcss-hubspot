@@ -16,8 +16,12 @@ form {
     display: inline-block;
 }
 
-select, a {
-    font-size: 12px;
+a {
+    font-size: 14px;
+}
+
+.fa-chevron-down {
+    padding: 0 5px 0 5px
 }
 
 .clearfix {
@@ -25,20 +29,25 @@ select, a {
     display: table;
     clear: both;
 }
+
 .jumbotron {
     width: 100%;
     height: 560px;
 }
+
 .container {
     width: 100%;
     padding-bottom: 50px;
 }
+
 .language a {
     color: #33475B;
 }
+
 .top-nav a {
     text-decoration: none;
 }
+
 .outline-red, .solid-red {
     border: 1px solid #FE775A;
     background-color: white;
@@ -48,36 +57,46 @@ select, a {
     padding: 5px 10px;
     transition: 0.3s;
 }
+
 .outline-red:hover, .solid-red:hover {
     border: 1px solid white;
     background-color: #FE775A;
     color: white;
 }
+
 .padding-left {
     padding-left: 15px;
 }
+
 .padding-right {
     padding-right: 15px;
 }
+
 .background-black {
     background-color: #33475B;
     border-radius: 50%;
 }
+
 .bg-sky {
     background-color: #F4F9FD;
 }
+
 .bg-white {
     background-color: white;
 }
+
 .bg-pink {
     background-color: #FFF2EE;
 }
+
 .bg-rubik {
     background-color: #F4F9FD;
 }
+
 .bg-black {
     background-color: black;
 }
+
 .bg-orange {
     background-color: #FE775A;
 }
@@ -89,15 +108,18 @@ select, a {
     height: 80px;
     margin: auto;
 }
+
 .language {
     width: 50%;
     text-align: left;
     line-height: 80px;
     float: left;
 }
+
 .language form {
     display: inline-block;
 }
+
 .vertical-divider {
     display: inline-block;
     background-color: #33475B;
@@ -106,16 +128,14 @@ select, a {
     width: 1px;
     height: 15px;
 }
-select {
-    background-color: #F4F9FD;
-    border-style: none;
-}
+
 .login {
     width: 50%;
     text-align: right;
     line-height: 80px;
     float: left;
 }
+
 .login img, .language img {
     line-height: 80px;
     vertical-align: middle;
@@ -332,24 +352,27 @@ select {
     bottom: 0;
 }
 
-.checkmarks span {
-    display: inline-block;
-    padding-top: 30px;
-    margin-right: 10px;
-}
-
-.checkmarks span::before, .card ul>li::before {
-    content: "\2713";
-    font-size: 12px;
+.fa-check {
     width: 15px;
     height: 15px;
     display: inline-block;
     margin-right: 10px;
     text-align: center;
+    line-height: 15px;
+    font-size: 10px;
     color: white;
     border: 1px solid #FE775A;
     background-color: #FE775A;
     border-radius: 50%;
+}
+
+.checkmarks ul {
+    list-style: none;
+}
+
+.checkmarks>ul li {
+    display: inline-block;
+    margin-right: 15px;
 }
 
 .img_book {
@@ -359,6 +382,7 @@ select {
     position: relative;
     text-align: center;
 }
+
 .img_book img {
     text-align: center;
     height: 40%;
@@ -440,12 +464,12 @@ select {
     list-style: none;
 }
 
-.card ul>li, .card h4, .card p, .card h3, .benchmark_container h2 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .card .big {
     margin-top: 50px;
+}
+
+.card>ul li, .card>ul>.fa-check {
+    line-height: 20px;
 }
 
 /* sezione benchmark */
@@ -486,7 +510,6 @@ select {
     text-align: center;
     background: rgb(9, 9, 121);
     background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 164, 188, 1) 0%, rgba(0, 188, 165, 1) 100%);
-
 }
 
 .customer_container:nth-child(2) {
@@ -602,15 +625,18 @@ select {
 }
 
 /* start growing section */
+
 .start_growing {
     width: 80%;
     margin: auto;
 }
+
 .start_growing_left {
     width: 40%;
     height: 450px;
     float: left;
 }
+
 .start_growing_left h2 {
     width: 400px;
     text-align: left;
@@ -618,15 +644,18 @@ select {
     margin-top: 50px;
     margin-bottom: 25px;
 }
+
 .start_growing_left p {
     text-align: left;
     font-size: 16px;
     line-height: 1.5rem;
 }
+
 .start_growing_left p:last-of-type {
     font-size: 12px;
     margin-top: 80px;
 }
+
 .start_growing_right {
     width: 50%;
     height: 350px;
@@ -634,35 +663,43 @@ select {
     text-align: right;
     float: left;
 }
+
 .start_growing_right img {
     height: 100%;
 }
+
 /* footer */
+
 footer {
     width: 100%;
     background-color: #32495B;
     color: white;
 }
+
 .footer_top_container {
     width: 80%;
     margin: auto;
 }
+
 .footer_top_column {
     width: calc(100% / 4);
     height: 500px;
     float: left;
     text-align: left;
 }
+
 .footer_top_column h4 {
     color: white;
     margin: 50px 0;
 }
+
 .footer_top_column ul li {
     color: #C4CFDC;
     margin-bottom: 25px;
     list-style: none;
 }
-#call_911, #social_icons {
+
+#call_911 {
     display: inline-block;
     background-color: #C4CFDC;
     color: #32495B;
@@ -670,11 +707,22 @@ footer {
     font-size: 14px;
     border-radius: 5px;
 }
+
+#call_911 a {
+    text-decoration: none;
+}
+
+#call_911:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
 .footer_top_container:nth-of-type(2) {
     height: 50px;
     text-align: center;
-    border-bottom: 1px solid  #C4CFDC;
+    border-bottom: 1px solid #C4CFDC;
 }
+
 .footer_top_container:nth-of-type(2) a {
     display: inline-block;
     bottom: 5px;
@@ -683,6 +731,7 @@ footer {
     padding-left: 10px;
     text-decoration: none;
 }
+
 .footer_logo {
     width: 50%;
     height: 150px;
@@ -690,17 +739,20 @@ footer {
     vertical-align: middle;
     float: left;
 }
-.footer_logo img{
+
+.footer_logo img {
     display: block;
     margin: 50px 0 10px 0;
     line-height: 50px;
 }
+
 .footer_logo p, .footer_legal a {
     color: white;
     font-size: 16px;
     margin-right: 5px;
     text-decoration: none;
 }
+
 .footer_legal {
     height: 150px;
     width: 50%;
@@ -708,4 +760,15 @@ footer {
     float: left;
     line-height: 50px;
     margin-top: 50px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-youtube, .fa-twitter, .fa-linkedin-in {
+    color: #C4CFDC;
+    font-size: 18px;
+    padding-right: 18px;
+}
+
+#social_icons a>.fab:hover {
+    color: white;
+    transition: 0.5s;
 }
