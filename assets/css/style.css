@@ -693,3 +693,45 @@ footer {
     font-size: 14px;
     border-radius: 5px;
 }
+.footer_top_container:nth-of-type(2) {
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid  #C4CFDC;
+}
+.footer_top_container:nth-of-type(2) a {
+    display: inline-block;
+    bottom: 5px;
+    color: #C4CFDC;
+    font-size: 16px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.footer_top_container:nth-of-type(3) {
+    height: 200px;
+}
+.footer_logo {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    float: left;
+}
+.footer_logo img{
+    display: block;
+    margin: 50px 0 10px 0;
+    line-height: 25px;
+}
+.footer_logo p, .footer_legal a {
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.footer_legal {
+    height: 50px;
+    width: 50%;
+    text-align: right;
+    float: left;
+    line-height: 50px;
+    margin-top: 50px;
+}
