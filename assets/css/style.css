@@ -11,43 +11,27 @@
 .body {
     min-width: 1920px;
 }
-
-form {
-    display: inline-block;
-}
-
 a {
     font-size: 14px;
+    text-decoration: none;
 }
-
 .fa-chevron-down {
     padding: 0 5px 0 5px
 }
-
 .clearfix {
     content: "";
     display: table;
     clear: both;
 }
-
 .jumbotron {
     width: 100%;
     height: 560px;
+    background-color: #FFF2EE;
 }
-
 .container {
     width: 100%;
     padding-bottom: 50px;
 }
-
-.language a {
-    color: #33475B;
-}
-
-.top-nav a {
-    text-decoration: none;
-}
-
 .outline-red, .solid-red {
     border: 1px solid #FE775A;
     background-color: white;
@@ -72,11 +56,6 @@ a {
     padding-right: 15px;
 }
 
-.background-black {
-    background-color: #33475B;
-    border-radius: 50%;
-}
-
 .bg-sky {
     background-color: #F4F9FD;
 }
@@ -85,20 +64,8 @@ a {
     background-color: white;
 }
 
-.bg-pink {
-    background-color: #FFF2EE;
-}
-
 .bg-rubik {
     background-color: #F4F9FD;
-}
-
-.bg-black {
-    background-color: black;
-}
-
-.bg-orange {
-    background-color: #FE775A;
 }
 
 /*** HEADER ***/
@@ -115,11 +82,6 @@ a {
     line-height: 80px;
     float: left;
 }
-
-.language form {
-    display: inline-block;
-}
-
 .vertical-divider {
     display: inline-block;
     background-color: #33475B;
@@ -128,45 +90,37 @@ a {
     width: 1px;
     height: 15px;
 }
-
 .login {
     width: 50%;
     text-align: right;
     line-height: 80px;
     float: left;
 }
-
 .login img, .language img {
     line-height: 80px;
     vertical-align: middle;
     height: 15px;
     width: 15px;
 }
-
 /* bot navbar */
-
 .logo img {
     display: inline-block;
     line-height: 80px;
     vertical-align: middle;
 }
-
 .bot-nav {
     height: 80px;
     line-height: 80px;
 }
-
 .logo {
     width: 20%;
     float: left;
 }
-
 .menu {
     width: 80%;
     float: left;
     text-align: right;
 }
-
 .menu select {
     background-color: white;
     color: #33475B;
@@ -175,16 +129,13 @@ a {
     border-radius: 5px;
     text-decoration: none;
 }
-
 .menu select:hover, menu a:hover {
     cursor: pointer;
 }
-
 .menu a {
     margin-left: 15px;
     padding: 5px 10px;
     text-decoration: none;
-    color: #33475B;
 }
 
 /*** MAIN ***/
@@ -201,6 +152,7 @@ a {
 
 .text_container {
     position: absolute;
+    height: 560px;
     margin-left: 10%;
     margin-top: 3%;
     width: 45%;
@@ -209,13 +161,12 @@ a {
 .text_container h1 {
     font-size: 60px;
     margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+
 }
 
 .text_container p, .big {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5em;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .big {
@@ -697,6 +648,11 @@ footer {
     color: #C4CFDC;
     margin-bottom: 25px;
     list-style: none;
+    cursor: pointer;
+}
+.footer_top_column ul li:hover {
+    color: white;
+    transition: 0.3s;
 }
 
 #call_911 {
