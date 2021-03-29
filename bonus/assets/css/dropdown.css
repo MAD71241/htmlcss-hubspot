@@ -135,7 +135,55 @@ hr {
     width: 80%;
 }
 
-/* bubble chat */
+/* ***PARTNERS DROPDOWN*** */
+/* ***********RESOURCES DROPDOWN **************** */
+
+.partners-dropdown {
+    display: none;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 0 5px 1px black;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 1;
+}
+.dropdown:hover .partners-dropdown {
+    display: block;
+}
+.partners-row {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    right: 5%;
+    float: left;
+}
+.partners-card {
+    text-align: left;
+    height: 120px;
+    width: 50%;
+    background-color: white;
+    float: left;
+}
+
+.partners-card h4 {
+    font-weight: bold;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.partners-card p {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* ***BUBBLE CHAT*** */
 
 .chat {
     position: fixed;
