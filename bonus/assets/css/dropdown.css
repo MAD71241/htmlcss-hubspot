@@ -86,7 +86,7 @@ hr {
 /* ***********RESOURCES DROPDOWN **************** */
 
 .resources-dropdown {
-    display: block;
+    display: none;
     width: 1000px;
     background-color: white;
     box-shadow: 0 0 5px 1px black;
@@ -95,9 +95,14 @@ hr {
     right: -200px;
     z-index: 1;
 }
+.dropdown:hover .resources-dropdown {
+    display: block;
+}
 .resources-row {
-    width: 100%;
-    margin:auto;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    right: 5%;
     float: left;
 }
 .resources-card {
@@ -108,6 +113,11 @@ hr {
     border-bottom: 1px solid black;
     float: left;
 }
+
+.resources-row:nth-of-type(3) .resources-card {
+    border-bottom: none;
+}
+
 .resources-card h4 {
     font-weight: bold;
     text-align: left;
