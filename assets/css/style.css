@@ -28,6 +28,11 @@ a {
 }
 
 .jumbotron {
+    background-image: url(/assets/img/jumbotron.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    position: relative;
     width: 100%;
     height: 560px;
     background-color: #FFF2EE;
@@ -35,6 +40,8 @@ a {
 
 .container {
     width: 100%;
+}
+.padding-bt {
     padding-bottom: 50px;
 }
 
@@ -80,6 +87,16 @@ a {
     width: 80%;
     height: 80px;
     margin: auto;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.mg-top {
+    margin-top: 80px;
 }
 
 .language {
@@ -159,24 +176,16 @@ a {
 
 /* jumbotron */
 
-.j_bg {
-    background-image: url(/assets/img/jumbotron.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 370px;
-    position: relative;
-}
-
 .text_container {
     position: absolute;
     height: 560px;
     margin-left: 10%;
     margin-top: 3%;
-    width: 45%;
+    width: 30%;
 }
 
 .text_container h1 {
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
