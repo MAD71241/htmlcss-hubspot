@@ -15,7 +15,7 @@
     z-index: 1;
 }
 
-.novelty::after{
+.novelty::after {
     content: "NEW";
     font-size: 10px;
     line-height: 20px;
@@ -36,44 +36,93 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .dropdown-content li {
     list-style: none;
 }
-.software-row{
+
+.software-row {
     width: 100%;
     float: left;
 }
+
 .software-row:last-of-type {
     padding-left: 5%;
     margin-bottom: 5%;
 }
 
 .software-row img {
-    float: left; 
+    float: left;
     margin: 15px;
 }
+
 .row-text {
     float: left;
     text-align: middle;
 }
+
 .row-text p {
     font-size: 12px;
     line-height: 20px;
 }
+
 .row-text h4 {
     font-weight: bold;
     text-align: left;
     line-height: 20px;
-    margin-top:  15px;
+    margin-top: 15px;
 }
+
 hr {
     width: 90%;
     background-color: black;
     margin: auto;
 }
+
 .software-row:hover {
     text-decoration: underline;
     background-color: blanchedalmond;
+}
+/* ***********RESOURCES DROPDOWN **************** */
+
+.resources-dropdown {
+    display: block;
+    width: 1000px;
+    background-color: white;
+    box-shadow: 0 0 5px 1px black;
+    position: absolute;
+    top: 50px;
+    right: -200px;
+    z-index: 1;
+}
+.resources-row {
+    width: 100%;
+    margin:auto;
+    float: left;
+}
+.resources-card {
+    text-align: left;
+    height: 120px;
+    width: calc(100%/3);
+    background-color: white;
+    border-bottom: 1px solid black;
+    float: left;
+}
+.resources-card h4 {
+    font-weight: bold;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.resources-card p {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    width: 80%;
 }
 
 /* bubble chat */
@@ -105,20 +154,24 @@ hr {
     border-radius: 5px;
     text-align: center;
 }
+
 .chat-avatar {
     position: fixed;
     width: 50px;
     right: 96px;
     bottom: 160px;
 }
+
 .fa-times-circle {
     position: fixed;
     right: 30px;
     bottom: 160px;
 }
+
 .chat:hover .chat-box {
     display: block;
 }
+
 .chat-box p {
     display: inline-block;
     padding: 30px 10px;
