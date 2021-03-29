@@ -130,7 +130,6 @@ a {
 }
 
 /* bot navbar */
-
 .logo img {
     display: inline-block;
     line-height: 80px;
@@ -151,6 +150,10 @@ a {
     width: 80%;
     float: left;
     text-align: right;
+}
+
+.menu .navbar_option {
+    display: inline-table;
 }
 
 .menu select {

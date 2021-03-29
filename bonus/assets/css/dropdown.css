@@ -1,16 +1,36 @@
 .dropdown {
+    display: inline-block;
     position: relative;
+    margin-right: 10px;
 }
 
 .dropdown-content {
     display: none;
-    width: 500px;
-    height: 300px;
-    background-color: black;
-    color: white;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 0 5px 1px black;
     position: absolute;
-    top: 40px;
+    top: 50px;
     z-index: 1;
+}
+
+.novelty::after{
+    content: "NEW";
+    font-size: 10px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: 1px solid green;
+    padding: 5px 5px;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+    font-weight: 800;
+}
+
+.menu .dropdown {
+    margin-right: 10px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -18,6 +38,42 @@
 }
 .dropdown-content li {
     list-style: none;
+}
+.software-row{
+    width: 100%;
+    float: left;
+}
+.software-row:last-of-type {
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+
+.software-row img {
+    float: left; 
+    margin: 15px;
+}
+.row-text {
+    float: left;
+    text-align: middle;
+}
+.row-text p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.row-text h4 {
+    font-weight: bold;
+    text-align: left;
+    line-height: 20px;
+    margin-top:  15px;
+}
+hr {
+    width: 90%;
+    background-color: black;
+    margin: auto;
+}
+.software-row:hover {
+    text-decoration: underline;
+    background-color: blanchedalmond;
 }
 
 /* bubble chat */
@@ -34,7 +90,6 @@
     background-position: 50%;
     background-image: url(../img/launcher-open-icon.svg);
     background-color: #32495B;
-    ;
     box-shadow: 0 0 25px 1px black;
 }
 
