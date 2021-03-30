@@ -21,6 +21,10 @@ a {
     padding: 0 5px 0 5px
 }
 
+.fa-globe-europe {
+    margin-right: 10px;
+}
+
 .clearfix {
     content: "";
     display: table;
