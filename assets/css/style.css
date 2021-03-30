@@ -28,7 +28,7 @@ a {
 }
 
 .jumbotron {
-    background-image: url(/assets/img/jumbotron.png);
+    background-image: url(../img/jumbotron.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 50%;
@@ -231,7 +231,7 @@ a {
 }
 
 .rubik {
-    background-image: url(/assets/img/cube.webp);
+    background-image: url(../img/cube.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 15%;
