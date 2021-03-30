@@ -5,6 +5,13 @@
     margin-right: 10px;
 }
 
+/* ***DROPDOWN*** */
+
+.dropdown:hover .dropdown-content, .dropdown:hover .resources-dropdown, .dropdown:hover .partners-dropdown, .chat:hover .chat-box, .dropdown:hover .language-dropdown, .dropdown:hover .about-dropdown {
+    display: block;
+    cursor: pointer;
+}
+
 /* ****RESOURCES DROPDOWN**** */
 
 .dropdown-content {
@@ -34,10 +41,6 @@
 
 .menu .dropdown {
     margin-right: 10px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 .dropdown-content li {
@@ -94,9 +97,7 @@ hr {
     right: -200px;
     z-index: 1;
 }
-.dropdown:hover .resources-dropdown {
-    display: block;
-}
+
 .resources-row {
     width: 90%;
     position: relative;
@@ -117,19 +118,19 @@ hr {
     border-bottom: none;
 }
 
-.resources-card h4 {
-    font-weight: bold;
+.resources-card h4, .resources-card p {
     text-align: left;
     line-height: 20px;
     padding-left: 30px;
+}
+
+.resources-card h4 {
+    font-weight: bold;
     padding-top: 20px;
 }
 .resources-card p {
     display: inline-block;
     font-size: 12px;
-    line-height: 20px;
-    text-align: left;
-    padding-left: 30px;
     margin-bottom: 50px;
     width: 80%;
 }
@@ -147,9 +148,7 @@ hr {
     right: 0;
     z-index: 1;
 }
-.dropdown:hover .partners-dropdown {
-    display: block;
-}
+
 .partners-row {
     width: 90%;
     position: relative;
@@ -225,10 +224,6 @@ hr {
     bottom: 160px;
 }
 
-.chat:hover .chat-box {
-    display: block;
-}
-
 .chat-box p {
     display: inline-block;
     padding: 30px 10px;
@@ -249,10 +244,6 @@ hr {
     position: absolute;
     top: 50px;
     left: 5px
-}
-
-.dropdown:hover .language-dropdown {
-    display: block;
 }
 
 .language-dropdown ul li {
@@ -283,10 +274,6 @@ hr {
     z-index: 1;
 }
 
-.dropdown:hover .about-dropdown {
-    display: block;
-}
-
 .about-column {
     width: calc(100%/3);
     float: left;
@@ -296,7 +283,6 @@ hr {
 .about-column ul {
     padding-top: 30px;
 }
-
 
 .about-column ul li {
     text-align: left;

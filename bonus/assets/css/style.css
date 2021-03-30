@@ -152,6 +152,10 @@ a {
     text-align: right;
 }
 
+.menu div:hover {
+    cursor: pointer;
+}
+
 .menu .navbar_option {
     display: inline-table;
 }
