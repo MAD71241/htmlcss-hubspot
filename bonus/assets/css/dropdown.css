@@ -274,7 +274,6 @@ hr {
     width: 550px;
     background-color: white;
     color: #32495B;
-    border: 1px solid black;
     box-shadow: 0 0 5px 1px lightgray;
     z-index: 1;
 }
