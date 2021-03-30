@@ -50,7 +50,7 @@ a {
     padding-bottom: 50px;
 }
 
-.outline-red, .solid-red {
+.solid-red {
     border: 1px solid #FE775A;
     background-color: white;
     color: #FE775A;
@@ -60,10 +60,26 @@ a {
     transition: 0.3s;
 }
 
-.outline-red:hover, .solid-red:hover {
+.outline-red {
+    border: 1px solid white;;
+    background-color: #FE775A;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.solid-red:hover {
     border: 1px solid white;
     background-color: #FE775A;
     color: white;
+}
+
+.outline-red:hover {
+    border: 1px solid #FE775A;
+    background-color: white;
+    color: #FE775A;
 }
 
 .padding-left {
