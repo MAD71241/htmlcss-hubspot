@@ -4,6 +4,7 @@
     position: relative;
     margin-right: 10px;
 }
+
 /* ****RESOURCES DROPDOWN**** */
 
 .dropdown-content {
@@ -239,7 +240,9 @@ hr {
     margin: auto;
     text-align: left;
 }
+
 /* ***LANGUAGE DROPDOWN*** */
+
 .language-dropdown {
     display: none;
     width: 100px;
@@ -267,4 +270,52 @@ hr {
 .language-dropdown ul li:hover {
     color: white;
     background-color: #32495B;
+}
+
+/* ***ABOUT DROPDOWN*** */
+
+.about-dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 550px;
+    background-color: white;
+    color: #32495B;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 1px black;
+    z-index: 1;
+}
+
+.dropdown:hover .about-dropdown {
+    display: block;
+}
+
+.about-column {
+    width: calc(100%/3);
+    float: left;
+    height: 350px;
+}
+
+.about-column ul {
+    padding-top: 30px;
+}
+
+
+.about-column ul li {
+    text-align: left;
+    padding-left: 50px;
+    list-style: none;
+    line-height: 50px;
+    font-size: 13px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about-column ul li:hover, .title:hover {
+    background-color: #32495B;
+    color: white;
 }
