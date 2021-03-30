@@ -1,8 +1,10 @@
+/* ***GENERAL*** */
 .dropdown {
     display: inline-block;
     position: relative;
     margin-right: 10px;
 }
+/* ****RESOURCES DROPDOWN**** */
 
 .dropdown-content {
     display: none;
@@ -236,4 +238,33 @@ hr {
     font-size: 12px;
     margin: auto;
     text-align: left;
+}
+/* ***LANGUAGE DROPDOWN*** */
+.language-dropdown {
+    display: none;
+    width: 100px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 1px black;
+    position: absolute;
+    top: 50px;
+    left: 5px
+}
+
+.dropdown:hover .language-dropdown {
+    display: block;
+}
+
+.language-dropdown ul li {
+    color: #32495B;
+    list-style: none;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 15px;
+    line-height: 35px;
+}
+.language-dropdown ul li:hover {
+    color: white;
+    background-color: #32495B;
 }
