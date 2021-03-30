@@ -1,4 +1,5 @@
 /* ***GENERAL*** */
+
 .dropdown {
     display: inline-block;
     position: relative;
@@ -105,6 +106,7 @@ hr {
     right: 5%;
     float: left;
 }
+
 .resources-card {
     text-align: left;
     height: 120px;
@@ -128,6 +130,7 @@ hr {
     font-weight: bold;
     padding-top: 20px;
 }
+
 .resources-card p {
     display: inline-block;
     font-size: 12px;
@@ -136,6 +139,7 @@ hr {
 }
 
 /* ***PARTNERS DROPDOWN*** */
+
 /* ***********RESOURCES DROPDOWN **************** */
 
 .partners-dropdown {
@@ -156,6 +160,7 @@ hr {
     right: 5%;
     float: left;
 }
+
 .partners-card {
     text-align: left;
     height: 120px;
@@ -171,6 +176,7 @@ hr {
     padding-left: 30px;
     padding-top: 20px;
 }
+
 .partners-card p {
     display: inline-block;
     font-size: 12px;
@@ -179,7 +185,6 @@ hr {
     padding-left: 30px;
     margin-bottom: 50px;
 }
-
 
 /* ***BUBBLE CHAT*** */
 
@@ -254,6 +259,7 @@ hr {
     padding-left: 15px;
     line-height: 35px;
 }
+
 .language-dropdown ul li:hover {
     color: white;
     background-color: #32495B;

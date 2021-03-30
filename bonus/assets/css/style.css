@@ -41,6 +41,7 @@ a {
 .container {
     width: 100%;
 }
+
 .padding-bt {
     padding-bottom: 50px;
 }
@@ -88,6 +89,7 @@ a {
     height: 80px;
     margin: auto;
 }
+
 .fixed {
     position: fixed;
     top: 0;
@@ -95,6 +97,7 @@ a {
     width: 100%;
     z-index: 1;
 }
+
 .mg-top {
     margin-top: 80px;
 }
@@ -130,6 +133,7 @@ a {
 }
 
 /* bot navbar */
+
 .logo img {
     display: inline-block;
     line-height: 80px;
