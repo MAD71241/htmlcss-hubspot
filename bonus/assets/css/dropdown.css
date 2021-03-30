@@ -307,15 +307,15 @@ hr {
     padding-left: 50px;
     list-style: none;
     line-height: 50px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.about-column ul li:hover, .title:hover {
+.about-column ul li:hover {
     background-color: #32495B;
     color: white;
 }
